@@ -1,4 +1,4 @@
-FROM openapitools/openapi-generator-cli:v4.3.0
+FROM openapitools/openapi-generator-cli:v4.3.1
 # This hack is widely applied to avoid python printing issues in docker containers.
 # See: https://github.com/Docker-Hub-frolvlad/docker-alpine-python3/pull/13
 ENV PYTHONUNBUFFERED=1
